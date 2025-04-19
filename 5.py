@@ -14,7 +14,7 @@ def area_poligono(tipo, base, altura):
     elif tipo == "rectangulo":
         return base * altura
     else:
-        return "Tipo de polígono no soportado"
+        return "Ese no existe"
     
 print(area_poligono("triangulo", 5, 10))
 print(area_poligono("cuadrado", 12, 0))
